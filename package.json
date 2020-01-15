@@ -1,0 +1,38 @@
+{
+  "name": "ft-eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "node createFile",
+    "publish": "npm publish",
+    "build": "eslint-find-new-rules --a ./index ",
+    "rules": "node_modules/eslint-find-rules/dist/bin/find.js --a ./index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penguin3069/ft-eslint-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penguin3069/ft-eslint-config/issues"
+  },
+  "homepage": "https://github.com/penguin3069/ft-eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1 || ^5.3.0",
+    "eslint-find-rules": "^3.3.1",
+    "eslint-plugin-import": "^2.13.0",
+    "lodash": "^4.17.10"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.3.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "eslint-restricted-globals": "^0.1.1",
+    "object.assign": "^4.1.0",
+    "object.entries": "^1.0.4"
+  }
+}
