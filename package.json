@@ -1,11 +1,10 @@
 {
   "name": "ft-eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "create": "node createFile",
-    "publish": "npm publish",
     "build": "eslint-find-new-rules --a ./index ",
     "rules": "node_modules/eslint-find-rules/dist/bin/find.js --a ./index.js "
   },

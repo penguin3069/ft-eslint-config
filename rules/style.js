@@ -485,6 +485,11 @@ module.exports = {
         'unicode-bom': ['error', 'never'],
 
         // require regex literals to be wrapped in parentheses
-        'wrap-regex': 'off'
+        'wrap-regex': 'off',
+        "no-param-reassign": "off",
+        "no-multi-assign": "off",
+        "no-underscore-dangle": "off",
+        "no-plusplus": "off",
+        "no-console": "off"
     }
 };
